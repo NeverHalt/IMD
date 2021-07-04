@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:id="@+id/layout_l"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+
+        <TextView
+            android:id="@+id/poem_name_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="7"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="13"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/poem_author_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/poem_content_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:textSize="13sp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/layout_r"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorDarkGray"
+        android:columnCount="2"
+        android:rowCount="2">
+
+
+        <TextView
+            android:id="@+id/poem_name_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="7"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="13"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/poem_author_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/poem_content_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:textSize="13sp" />
+
+
+    </GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dip"
+        android:layout_marginBottom="0dip"
+        android:background="@color/colorDarkGray" />
+
+</LinearLayout>

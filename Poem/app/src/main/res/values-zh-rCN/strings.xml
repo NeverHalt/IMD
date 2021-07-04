@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">诗言</string>
+    <string name="directory">目录</string>
+    <string name="item">详情</string>
+    <string name="back">返回</string>
+    <string name="select">选择</string>
+    <string name="add">添加</string>
+    <string name="edit">编辑</string>
+    <string name="writing">写诗</string>
+    <string name="type_name">输入诗名</string>
+    <string name="type_date">输入年代</string>
+    <string name="type_author">输入作者</string>
+    <string name="type_content">输入内容</string>
+    <string name="save">保存</string>
+    <string name="update">更新</string>
+    <string name="delete">删除</string>
+    <string name="cancel">否</string>
+    <string name="ok">是</string>
+    <string name="sure">你确定要删除吗？</string>
+    <string name="caution">注意！</string>
+    <string name="refresh">刷新</string>
+
+</resources>
